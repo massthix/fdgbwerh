@@ -92,7 +92,7 @@ local function updateStats()
         SpeedLabel.Text = "Speed: " .. converttoletter(SpeedValue)
         JumpLabel.Text = "Jump: " .. converttoletter(JumpValue)
 
-        wait(1) -- Her salisede güncelle
+        wait(0.0001) -- Her salisede güncelle
     end
 end
 
