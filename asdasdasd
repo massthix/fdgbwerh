@@ -12,48 +12,48 @@ local StatsFrame = Instance.new("Frame")
 StatsFrame.Size = UDim2.new(0, 600, 0, 350)
 StatsFrame.Position = UDim2.new(0, 10, 0.5, -75) -- Sol orta
 StatsFrame.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
-StatsFrame.BackgroundTransparency = 0.5
+StatsFrame.BackgroundTransparency = 1
 StatsFrame.Parent = ScreenGui
 
 -- Statları göstermek için TextLabel'lar oluştur
 local FistLabel = Instance.new("TextLabel")
 FistLabel.Size = UDim2.new(1, 0, 0, 30)
-FistLabel.Position = UDim2.new(0, 300, 0, 0)
+FistLabel.Position = UDim2.new(0, 210, 0, 0)
 FistLabel.BackgroundTransparency = 1
 FistLabel.TextColor3 = Color3.new(1, 1, 1)
-FistLabel.TextSize = 16
+FistLabel.TextSize = 14
 FistLabel.Parent = StatsFrame
 
 local BodyLabel = Instance.new("TextLabel")
 BodyLabel.Size = UDim2.new(1, 0, 0, 30)
-BodyLabel.Position = UDim2.new(0, 300, 0, 30)
+BodyLabel.Position = UDim2.new(0, 210, 0, 30)
 BodyLabel.BackgroundTransparency = 1
 BodyLabel.TextColor3 = Color3.new(1, 1, 1)
-BodyLabel.TextSize = 16
+BodyLabel.TextSize = 14
 BodyLabel.Parent = StatsFrame
 
 local PsychicLabel = Instance.new("TextLabel")
 PsychicLabel.Size = UDim2.new(1, 0, 0, 30)
-PsychicLabel.Position = UDim2.new(0, 300, 0, 60)
+PsychicLabel.Position = UDim2.new(0, 210, 0, 60)
 PsychicLabel.BackgroundTransparency = 1
 PsychicLabel.TextColor3 = Color3.new(1, 1, 1)
-PsychicLabel.TextSize = 16
+PsychicLabel.TextSize = 14
 PsychicLabel.Parent = StatsFrame
 
 local SpeedLabel = Instance.new("TextLabel")
 SpeedLabel.Size = UDim2.new(1, 0, 0, 30)
-SpeedLabel.Position = UDim2.new(0, 300, 0, 90)
+SpeedLabel.Position = UDim2.new(0, 210, 0, 90)
 SpeedLabel.BackgroundTransparency = 1
 SpeedLabel.TextColor3 = Color3.new(1, 1, 1)
-SpeedLabel.TextSize = 16
+SpeedLabel.TextSize = 14
 SpeedLabel.Parent = StatsFrame
 
 local JumpLabel = Instance.new("TextLabel")
 JumpLabel.Size = UDim2.new(1, 0, 0, 30)
-JumpLabel.Position = UDim2.new(0, 300, 0, 120)
+JumpLabel.Position = UDim2.new(0, 210, 0, 120)
 JumpLabel.BackgroundTransparency = 1
 JumpLabel.TextColor3 = Color3.new(1, 1, 1)
-JumpLabel.TextSize = 16
+JumpLabel.TextSize = 14
 JumpLabel.Parent = StatsFrame
 
 -- Sayıları kısaltmak için fonksiyon
